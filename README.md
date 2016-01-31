@@ -37,5 +37,5 @@ Notes:
 |  | p ∧ p ≡ p |
 | Commutative | p v q ≡ q v p |
 |  | p ∧ q ≡ q ∧ p |
-| assosiative | (p v q) v r ≡ p v (q v r) |
+| associative | (p v q) v r ≡ p v (q v r) |
 |  | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |
