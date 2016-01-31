@@ -29,7 +29,7 @@ Notes:
 | :-----: | :-------: |
 | Identity | p v F ≡ p|
 |   |  p ∧ T ≡ p  |
-| Domination  | p v F ≡ p |
-| ⊕ | Exclusive disjunction | 
+| Domination  | p v T ≡ p |
+|   | p ∧ F ≡ p | 
 | → | Conditional | IF, THEN | p → q ≡  ¬p v q |
 | ↔ | Biconditional | IFF |  p ↔ q ≡ (p → q) ∧ (q → p) |
