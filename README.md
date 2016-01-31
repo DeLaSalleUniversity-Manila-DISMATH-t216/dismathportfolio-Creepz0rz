@@ -15,6 +15,8 @@ dismathportfolio-Creepz0rz created by Classroom for GitHub
 | ↔ | Biconditional | IFF |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 Notes:
+* Exclusive disjunction
+ * q and p must both be true/false
 * Conditional
   * q is always true, or p must be also false
 * Biconditional
@@ -66,6 +68,7 @@ Other "laws"
 | Implication Equivalence | p → q ≡ ¬p v q|
 | Using Negation on T and F | ¬T ≡ F |
 |   | ¬F ≡ T | 
+| Contrapositive | p → q ≡ ¬q → ¬p|
 
 ### Quantifiers 
 
