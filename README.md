@@ -16,11 +16,11 @@ dismathportfolio-Creepz0rz created by Classroom for GitHub
 
 Notes:
 * Exclusive disjunction
- * q and p must both be true/false
+ * p and q must be opposite
 * Conditional
   * q is always true, or p must be also false
 * Biconditional
-  * p and q must be opposite
+  * q and p must both be true/false
 
 
 ## Week 2
