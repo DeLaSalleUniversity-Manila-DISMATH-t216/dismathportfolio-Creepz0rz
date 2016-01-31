@@ -22,11 +22,13 @@ Notes:
 
 
 ## Week 2
-*Logical Equivalences, used for more complex logical statements for proving
+###Logical Equivalences
+
+ * used for more complex logical statements for proving
 
 | Name  | Logical Equivalence |
 | :-----: | :-------: |
-| Identity | p v F ≡ p|
+| Identity | p v F ≡ p
 |   |  p ∧ T ≡ p  |
 | Domination  | p v T ≡ T |
 |   | p ∧ F ≡ F | 
@@ -64,3 +66,23 @@ Other "laws"
 | Implication Equivalence | p → q ≡ ¬p v q|
 | Using Negation on T and F | ¬T ≡ F |
 |   | ¬F ≡ T | 
+
+### Quantifiers 
+
+|Name| Statement | Condition |
+| :-----: | :-------: | :-------: |
+|Universal Quantifier| ∀x.p(x) | x is true for all values|
+|Existential Quantifier| ∃x.p(x) | x is true for a certain value/s |
+
+### Rules of Inference
+
+
+## Week 3
+
+### Methods of Proof
+* Direct Proof
+* Proof by Contraposition (Indirect)
+* Vacuous and Trivial Proof
+* Proof by Contradiction (Indirect)
+* Proof by Equivalence
+* Mathematical Induction
