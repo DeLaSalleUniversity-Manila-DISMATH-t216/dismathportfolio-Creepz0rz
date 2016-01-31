@@ -55,7 +55,10 @@ Notes:
 Because:
  * v is for the maximum value
  * ∧ for the minumum 
+
+
 Other "laws"
+
 | Name  | Logical Equivalence |
 | :-----: | :-------: |
 | Implication Equivalence | p → q ≡ ¬p v q|
