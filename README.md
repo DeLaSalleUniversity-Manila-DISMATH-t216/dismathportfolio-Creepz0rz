@@ -37,5 +37,27 @@ Notes:
 |  | p ∧ p ≡ p |
 | Commutative | p v q ≡ q v p |
 |  | p ∧ q ≡ q ∧ p |
-| associative | (p v q) v r ≡ p v (q v r) |
+| Associative | (p v q) v r ≡ p v (q v r) |
 |  | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |
+| Distributive | p v (q ∧ r) ≡ (p v q) ∧ (p v r) |
+|  | p ∧ (q v r) ≡ (p ∧ q) v (p ∧ r) |
+| De Morgan's | ¬(p ∧ q) ≡ ¬p v ¬q |
+|  | ¬(p v q) ≡ ¬p ∧ ¬q |
+| Absorption | p v (p ∧ q) ≡ p |
+|  | p ∧ (p v q) ≡ p |
+
+Notes:
+*Laws are reversible
+* From identity/domination law, it is assumed that
+
+>  F < p < T
+
+Because:
+ * v is for the maximum value
+ * ∧ for the minumum 
+Other "laws"
+| Name  | Logical Equivalence |
+| :-----: | :-------: |
+| Implication Equivalence | p → q ≡ ¬p v q|
+| Using Negation on T and F | ¬T ≡ F |
+|   | ¬F ≡ T | 
