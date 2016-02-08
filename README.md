@@ -28,7 +28,7 @@ Notes:
 
  * used for more complex logical statements for proving
 
-| Name  | Logical Equivalence |
+| Law  | Logical Equivalence |
 | :-----: | :-------: |
 | Identity | p v F ≡ p
 |   |  p ∧ T ≡ p  |
@@ -79,6 +79,30 @@ Other "laws"
 
 ### Rules of Inference
 
+| Name  | Rule | Tautology|
+| :-----: | :------- | :--------: |
+| Modus Ponens | p | (p ∧ (p → q)) → q |
+| |  p → q  | |
+| | ∴ q | |
+| Modus Tollens |¬q | (¬q ∧ (p → q)) → ¬p |
+| | p → q| |
+| | ∴ ¬p | |
+|Hypothetical Syllogism | p → q| ((p → q) ∧ (q → r)) → (p → r) |
+| | q → r | |
+| | ∴ p → r | |
+| Disjunctive Syllogism | p ∨ q | ((p ∨ q) ∧ ¬p) → q |
+| | ¬p | |
+| |∴ q | |
+| Addition | p | p → p ∨ q |
+| | ∴ p ∨ q |
+| Subtraction | p ∧ q | (p ∧ q) → p |
+| | ∴ p |
+| Conjunction | p | ((p) ∧ (q)) → (p ∧ q) |
+| | q |
+| | ∴ p ∧ q |
+| Resolution | p ∨ q | ((p ∨ q) ∧ (¬p ∨ r)) → q ∨ r |
+| | ¬p ∨ r |
+| | ∴ q ∨ r |
 
 ## Week 3
 
@@ -89,3 +113,80 @@ Other "laws"
 * Proof by Contradiction (Indirect)
 * Proof by Equivalence
 * Mathematical Induction
+
+#### Direct Proof
+Steps:
+
+1. Assume p = T
+2. Following the statement:   
+
+>  p → q   
+
+Prove that q = T so (p → q) = T
+
+#### Proof by Contraposition
+Steps:
+
+1. Assume ¬q = T
+2. Following the statement:   
+
+>  ¬q → ¬p (from the contrapositive rule)    
+
+Prove that ¬p = T so (¬q → ¬p) = T
+## Week 3
+
+#### Vacuous Proof
+
+Following the statement:   
+
+>  ¬p → (p → q)
+
+Prove that p = F so ¬p → (p → q) = T
+
+#### Trivial Proof
+
+Following the statement:   
+
+>  q → (p → q)
+
+Prove that q = T so q → (p → q) = T
+
+#### Proof by Contradiction
+ * Not the same as Contraposition
+
+1. Assume ¬p = T     
+2. Make a contradiction from the previous assumption, proving that p = T and ¬p = F
+
+* p may be a whole premise or statement
+
+## Week 4
+
+#### Proof by Equivalence
+
+>  p ↔ q
+
+1. Based on the Biconditional statement, we must also prove that:
+
+>  p → q = T & q → p = T for {(p ↔ q) ↔ [(p → q) ∧ (q → p)]} = T
+
+
+#### Bonus: Counterexample
+ * Use any value to disprove the equation entirely
+ 
+ 
+#### Mathematical induction
+
+1. Basis Step: prove that P(1) = T
+2. Inductive step: assume that P(k) = T
+3.  Prove that P(k+1) = T so P(n) = T
+    *tip: use the assumption P(k) = T to substitute some of the values in P(k+1) to prove
+
+END OF METHODS OF PROOF
+
+#### Recursive definition
+
+
+
+
+
+
