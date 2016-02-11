@@ -1,5 +1,6 @@
 # My Dismath Portfolio
 dismathportfolio-Creepz0rz created by Classroom for GitHub
+Written by: Jason M. Tan
 
 ## Week 1
 * Discrete mathematics (DISMATH) is a subject, used to arrive at a mathematical truth of a statement
