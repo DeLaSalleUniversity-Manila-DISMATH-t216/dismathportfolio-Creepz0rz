@@ -186,6 +186,15 @@ END OF METHODS OF PROOF
 
 #### Recursive definition
 
+1. Basis Step: Specify the value of the function at zero.
+2. Recursive Step: Give a rule for finding its value at an integer from its values at smaller integers.
+
+  Simply put: Substitute values to get the next number
+
+#### Program Correctness
+## Week 5
+## Week 6
+
 
 
 
