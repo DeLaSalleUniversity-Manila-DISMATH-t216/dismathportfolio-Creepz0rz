@@ -186,74 +186,86 @@ END OF METHODS OF PROOF
 
 ## Week 5
 
-#### Recursive definition
+#### Recursive definition  
 
-1. Basis Step: Specify the value of the function at zero.
-2. Recursive Step: Give a rule for finding its value at an integer from its values at smaller integers.
+1. Basis Step: Specify the value of the function at zero.  
+2. Recursive Step: Give a rule for finding its value at an integer from its values at smaller integers.  
 
-  Simply put: Substitute values to get the next number
+  Simply put: Substitute values to get the next number  
 
 #### Program Correctness
 
-Goals:
-1. To get the correct output q from input p
-2. Program needs to terminate
+Goals:  
+1. To get the correct output q from input p  
+2. Program needs to terminate  
 
- Use the Hoare triple {p}C{q} to verify correctness 
-   substitute p with the input, C for the command/s, q for the output
+ Use the Hoare triple {p}C{q} to verify correctness   
+  - substitute p with the input, C for the command/s, q for the output   
 
 #### Sets
 
- 1. A collection of objects 
-   Objects may be other sets too (and counted as such too)
-   Copies of the same object is counted as one single object
-   Sets with no objects inside are called null sets 
- 2. Power sets
-   Basically a set with all of the possible subsets from a single set specified
- 3. Set operations
- 3. Set Cardinality
-   The number of objects in a set
-   If it is infinite, it is ℵ₀ (aleph-nought)
-   If two sets can have all of its objects paired together, it means they have the same cardinality
-## Week 6
-#### Functions
+ 1. A collection of objects
+   - Objects may be other sets too (and counted as such too)   
+   - Copies of the same object is counted as one single object   
+   - Sets with no objects inside are called null sets   
 
-Definition:
- with two sets A & B, function f(A)=B means that A's objects will be assigned to objects to set B.
-  Note: A can only assign one object, but B can have multiple objects assigned to one of the set's objects
-Other terms:
-Domain - The input function (In f(A)=B, A is the domain)
-Codomain - The output function (In f(A)=B, b is the codomain)
-Image - the resulting element from the element it was assigned to
-Range - The list of objects from the resulting set that was only assigned to from the domain
+ 2. Power sets   
+   - Basically a set with all of the possible subsets from a single set specified  
 
-Types:
-1. One-to-one Function (Injective)
- - Functions that only assign strictly one object/element to the codomain
-2. Onto Function (Surjective)
- - The range is equal to the codomain (all elements from the codomain is used, regardless of how many objects from the domain it was assigned
-3.One-to-one Correspondence (Bijection)
- -If a function is both one-to-one and onto, it is One-to-one Correspondence
-## Week 8
+ 3. Set operations  
 
-#### Algorithms
+ 4. Set Cardinality  
+   - The number of objects in a set  
+   - If it is infinite, it is ℵ₀ (aleph-nought)  
+   - If two sets can have all of its objects paired together, it means they have the same cardinality   
 
-Search Algorithms
--Linear Search
--Binary Search
 
-## Week 9
+## Week 6  
+#### Functions  
 
-Sorting Algorithms
+Definition:  
+
+ with two sets A & B, function f(A)=B means that A's objects will be assigned to objects to set B.  
+  - Note: A can only assign one object, but B can have multiple objects assigned to one of the set's objects  
+
+
+Other terms:   
+
+Domain - The input function (In f(A)=B, A is the domain)  
+Codomain - The output function (In f(A)=B, b is the codomain)  
+Image - the resulting element from the element it was assigned to  
+Range - The list of objects from the resulting set that was only assigned to from the domain   
+
+Types:  
+
+1. One-to-one Function (Injective)  
+ - Functions that only assign strictly one object/element to the codomain  
+
+2. Onto Function (Surjective)  
+ - The range is equal to the codomain (all elements from the codomain is used, regardless of how many objects from the domain it was assigned  
+
+3.One-to-one Correspondence (Bijection)  
+ - If a function is both one-to-one and onto, it is One-to-one Correspondence
+## Week 8  
+
+#### Algorithms  
+
+Search Algorithms  
+-Linear Search  
+-Binary Search  
+  
+## Week 9  
+
+Sorting Algorithms  
 -
-## Week 10
-#### Growth Of Functions
-Big O:
-Big Omega:
-Big Theta:
+## Week 10  
+#### Growth Of Functions  
+Big O:  
+Big Omega:  
+Big Theta:  
 
-## Week 12
-#### Graph Theory
+## Week 12  
+#### Graph Theory  
 
 
 
