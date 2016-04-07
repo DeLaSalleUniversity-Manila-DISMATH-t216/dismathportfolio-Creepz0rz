@@ -282,10 +282,10 @@ Greedy sort
  
 ## Week 10  
 #### Growth Of Functions  
-Big O: checks if it can go above the supposed function at any time  (higher bound)
-Big Omega: if it can go below the supposed function at any time  (lower bound)
-Big Theta: checks if it can both above and below the supposed function at any time  (higher and lower bound)
-   
+Big O: checks if it can go above the supposed function at any time  (higher bound)  
+Big Omega: if it can go below the supposed function at any time  (lower bound)  
+Big Theta: checks if it can both above and below the supposed function at any time  (higher and lower bound)  
+    
 Proof: Show witnesses c and K  
 
   
